@@ -14,3 +14,10 @@
         </div>
     </div>
 </div>
+<style>
+      @media only screen and (max-width: 750px) {
+        .hero-area {
+            display: none!important;
+        }
+      }
+</style>

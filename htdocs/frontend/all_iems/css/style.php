@@ -6,6 +6,7 @@
     --fourth-color: #26262c!important;
     --fifth-color: #1d1d1d!important;
 }
+
 /* Dispalay */
 .d-flex{    display: flex!important;          }  
 .d-block{   display: block!important;         }
@@ -28,7 +29,6 @@
 .a-i-cn{    align-items: center!important;              }
 .a-i-sb{    align-items: space-between!important;       }
 .a-i-sl{    align-items: space-around!important;        }
-/* Align Content */
 
 /* Text Align */
 .txt-cn{    text-align: center!important;               }     
@@ -60,6 +60,18 @@ body{
     color: var(--font-color);
     padding: 5px;
     margin: 0;
+    text-align: center;
+}
+.phone-view-header{
+    display: none;
+}
+@media only screen and (max-width: 750px) {
+    .header,.hero-area{
+        display: none!important;
+    }
+    .phone-view-header{
+        display: flex!important;
+    }
 }
 .header{
     margin: 1% 0% auto;

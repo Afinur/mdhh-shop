@@ -20,7 +20,68 @@
         </div>
         <div class="footer-bottom">
             <p>&copy; 2025 MDHH Shop. All rights reserved. &nbsp;|&nbsp; View the source
-            <a href="https://github.com/haisam10" target="_blank"> Created by ▲ MDHH Group </a></p>
+                <a href="https://github.com/haisam10" target="_blank"> Created by ▲ MDHH Group </a>
+            </p>
         </div>
     </div>
 </footer>
+<style>
+    @media only screen and (max-width: 750px) {
+        .footer-content {
+            flex-wrap: wrap!important;
+            padding: 20px!important;
+            .footer-logo {
+                margin-left: 1px!important;
+                width: 17%!important;
+                padding: 0px!important;
+
+                img {
+                    margin: 10px;
+                }
+            }
+
+            padding: 20px;
+
+            .footer-links {
+                padding: 0px 20px 0px 0px!important;
+
+                a {
+                    color: var(--font-color);
+                    text-decoration: none;
+                    padding: 5px;
+                    transition: 1s all;
+
+                    &:hover {
+                        transition: 1s all;
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+
+        .footer-bottom {
+            text-align: center;
+            padding: 1px;
+            color: var(--font-color);
+            background-color: var(--second-color);
+
+            a {
+                color: var(--font-color);
+                text-decoration: none;
+                transition: 1s all;
+
+                &:hover {
+                    transition: 1s all;
+                    text-decoration: underline;
+                }
+            }
+        }
+
+        .footer-container {
+            margin-top: 50px;
+            background-color: var(--fifth-color);
+            color: var(--font-color);
+            border-top: 1px solid var(--fourth-color);
+        }
+    }
+</style>
